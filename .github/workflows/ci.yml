@@ -13,6 +13,6 @@ jobs:
     # Ultra-constrained URLSession APIs require the Xcode 26 SDK.
     runs-on: macos-26
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Run Swift tests
         run: swift test
