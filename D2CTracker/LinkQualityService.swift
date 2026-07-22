@@ -21,22 +21,14 @@ final class LinkQualityService: ObservableObject {
             reconcile()
         }
     }
-    @Published var foregroundIntervalSeconds: TimeInterval {
+    @Published private(set) var foregroundIntervalSeconds: TimeInterval {
         didSet {
-            foregroundIntervalSeconds = Self.sanitizedInterval(
-                foregroundIntervalSeconds,
-                fallback: Constants.defaultForegroundInterval
-            )
             UserDefaults.standard.set(foregroundIntervalSeconds, forKey: Keys.foregroundInterval)
             restartLoopForScheduleChange()
         }
     }
-    @Published var backgroundIntervalSeconds: TimeInterval {
+    @Published private(set) var backgroundIntervalSeconds: TimeInterval {
         didSet {
-            backgroundIntervalSeconds = Self.sanitizedInterval(
-                backgroundIntervalSeconds,
-                fallback: Constants.defaultBackgroundInterval
-            )
             UserDefaults.standard.set(backgroundIntervalSeconds, forKey: Keys.backgroundInterval)
             restartLoopForScheduleChange()
         }
@@ -138,6 +130,24 @@ final class LinkQualityService: ObservableObject {
     func setForeground(_ foreground: Bool) {
         isForeground = foreground
         reconcile()
+    }
+
+    func setForegroundInterval(_ seconds: TimeInterval) {
+        let sanitized = Self.sanitizedInterval(
+            seconds,
+            fallback: Constants.defaultForegroundInterval
+        )
+        guard foregroundIntervalSeconds != sanitized else { return }
+        foregroundIntervalSeconds = sanitized
+    }
+
+    func setBackgroundInterval(_ seconds: TimeInterval) {
+        let sanitized = Self.sanitizedInterval(
+            seconds,
+            fallback: Constants.defaultBackgroundInterval
+        )
+        guard backgroundIntervalSeconds != sanitized else { return }
+        backgroundIntervalSeconds = sanitized
     }
 
     func setBackgroundTrackingActive(_ active: Bool) {

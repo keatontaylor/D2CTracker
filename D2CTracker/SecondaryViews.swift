@@ -318,12 +318,24 @@ struct MoreView: View {
             LabeledContent("System link quality", value: connectivity.systemLinkQuality.rawValue.capitalized)
             LabeledContent("Probe state", value: linkQuality.statusText)
             LabeledContent("Probe target", value: "Cloudflare Speed Test")
-            Picker("Foreground interval", selection: $linkQuality.foregroundIntervalSeconds) {
+            Picker(
+                "Foreground interval",
+                selection: Binding(
+                    get: { linkQuality.foregroundIntervalSeconds },
+                    set: { linkQuality.setForegroundInterval($0) }
+                )
+            ) {
                 ForEach([30.0, 60, 120, 300], id: \.self) { seconds in
                     Text(intervalLabel(seconds)).tag(seconds)
                 }
             }
-            Picker("Background interval", selection: $linkQuality.backgroundIntervalSeconds) {
+            Picker(
+                "Background interval",
+                selection: Binding(
+                    get: { linkQuality.backgroundIntervalSeconds },
+                    set: { linkQuality.setBackgroundInterval($0) }
+                )
+            ) {
                 ForEach([60.0, 300, 600, 900, 1_800], id: \.self) { seconds in
                     Text(intervalLabel(seconds)).tag(seconds)
                 }
