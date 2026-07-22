@@ -102,7 +102,7 @@ The optional TestFlight report uses elapsed sample times and omits location, IP 
 
 D2C Tracker has no accounts, advertising, analytics, tracking SDKs, or developer-operated backend. Location and orientation remain on the device. App settings, orbital caches, optional terrain, and optional diagnostic history are local app data.
 
-See the public [Privacy Policy](https://github.com/keatontaylor/D2CTracker/blob/main/docs/privacy.md) and [Support page](https://github.com/keatontaylor/D2CTracker/issues).
+See the public [Privacy Policy](https://d2ctracker.invertedorigin.com/privacy.html) and [Support page](https://d2ctracker.invertedorigin.com/).
 
 ## Build
 
