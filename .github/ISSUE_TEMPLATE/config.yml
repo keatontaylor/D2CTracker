@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Privacy policy
-    url: https://keatontaylor.info/D2CTracker/privacy.html
+    url: https://github.com/keatontaylor/D2CTracker/blob/main/docs/privacy.md
     about: Read the D2C Tracker privacy policy.
