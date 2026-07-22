@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* D2CTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000201 /* D2CTrackerApp.swift */; };
+		100000000000000000000102 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000202 /* AppModel.swift */; };
+		100000000000000000000103 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000203 /* Services.swift */; };
+		100000000000000000000104 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000204 /* RootView.swift */; };
+		100000000000000000000105 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000205 /* TrackingView.swift */; };
+		100000000000000000000106 /* SkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000206 /* SkyView.swift */; };
+		100000000000000000000107 /* GlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000207 /* GlobeView.swift */; };
+		100000000000000000000108 /* SecondaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000208 /* SecondaryViews.swift */; };
+		100000000000000000000109 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000209 /* PrivacyInfo.xcprivacy */; };
+		10000000000000000000010A /* D2CTrackerCore in Frameworks */ = {isa = PBXBuildFile; productRef = 100000000000000000000601 /* D2CTrackerCore */; };
+		10000000000000000000010B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020C /* Assets.xcassets */; };
+		10000000000000000000010C /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020D /* LiveActivityService.swift */; };
+		10000000000000000000010D /* SatelliteLiveActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020E /* SatelliteLiveActivityWidget.swift */; };
+		10000000000000000000010E /* D2CTrackerCore in Frameworks */ = {isa = PBXBuildFile; productRef = 100000000000000000000602 /* D2CTrackerCore */; };
+		10000000000000000000010F /* SatelliteWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 100000000000000000000210 /* SatelliteWidgets.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		100000000000000000000110 /* LinkQualityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000211 /* LinkQualityService.swift */; };
+		100000000000000000000111 /* TerrainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000212 /* TerrainService.swift */; };
+		100000000000000000000112 /* HorizonSkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000213 /* HorizonSkyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100000000000000000000700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000401;
+			remoteInfo = SatelliteWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		100000000000000000000304 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				10000000000000000000010F /* SatelliteWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000200 /* D2CTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D2CTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000201 /* D2CTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D2CTrackerApp.swift; sourceTree = "<group>"; };
+		100000000000000000000202 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		100000000000000000000203 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		100000000000000000000204 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		100000000000000000000205 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		100000000000000000000206 /* SkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyView.swift; sourceTree = "<group>"; };
+		100000000000000000000207 /* GlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeView.swift; sourceTree = "<group>"; };
+		100000000000000000000208 /* SecondaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViews.swift; sourceTree = "<group>"; };
+		100000000000000000000209 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		10000000000000000000020A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10000000000000000000020B /* D2CTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = D2CTracker.entitlements; sourceTree = "<group>"; };
+		10000000000000000000020C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10000000000000000000020D /* LiveActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
+		10000000000000000000020E /* SatelliteLiveActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteLiveActivityWidget.swift; sourceTree = "<group>"; };
+		10000000000000000000020F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000000210 /* SatelliteWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SatelliteWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000211 /* LinkQualityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkQualityService.swift; sourceTree = "<group>"; };
+		100000000000000000000212 /* TerrainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrainService.swift; sourceTree = "<group>"; };
+		100000000000000000000213 /* HorizonSkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonSkyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (10000000000000000000010A /* D2CTrackerCore in Frameworks */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10000000000000000000010E /* D2CTrackerCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000001 = {
+			isa = PBXGroup;
+			children = (100000000000000000000010 /* D2CTracker */, 100000000000000000000012 /* SatelliteWidgets */, 100000000000000000000011 /* Products */);
+			sourceTree = "<group>";
+		};
+		100000000000000000000010 /* D2CTracker */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000201 /* D2CTrackerApp.swift */,
+				100000000000000000000202 /* AppModel.swift */,
+				100000000000000000000203 /* Services.swift */,
+				100000000000000000000204 /* RootView.swift */,
+				100000000000000000000205 /* TrackingView.swift */,
+				100000000000000000000206 /* SkyView.swift */,
+				100000000000000000000213 /* HorizonSkyView.swift */,
+				100000000000000000000207 /* GlobeView.swift */,
+				100000000000000000000208 /* SecondaryViews.swift */,
+				100000000000000000000209 /* PrivacyInfo.xcprivacy */,
+				10000000000000000000020A /* Info.plist */,
+				10000000000000000000020B /* D2CTracker.entitlements */,
+				10000000000000000000020C /* Assets.xcassets */,
+				10000000000000000000020D /* LiveActivityService.swift */,
+				100000000000000000000211 /* LinkQualityService.swift */,
+				100000000000000000000212 /* TerrainService.swift */,
+			);
+			path = D2CTracker;
+			sourceTree = "<group>";
+		};
+		100000000000000000000012 /* SatelliteWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000020E /* SatelliteLiveActivityWidget.swift */,
+				10000000000000000000020F /* Info.plist */,
+			);
+			path = SatelliteWidgets;
+			sourceTree = "<group>";
+		};
+		100000000000000000000011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000200 /* D2CTracker.app */,
+				100000000000000000000210 /* SatelliteWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000400 /* D2CTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000502 /* Build configuration list for PBXNativeTarget "D2CTracker" */;
+			buildPhases = (
+				100000000000000000000302 /* Sources */,
+				100000000000000000000301 /* Frameworks */,
+				100000000000000000000303 /* Resources */,
+				100000000000000000000304 /* Embed Foundation Extensions */,
+			);
+			buildRules = ();
+			dependencies = (
+				100000000000000000000701 /* PBXTargetDependency */,
+			);
+			name = D2CTracker;
+			packageProductDependencies = (100000000000000000000601 /* D2CTrackerCore */,);
+			productName = D2CTracker;
+			productReference = 100000000000000000000200 /* D2CTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000401 /* SatelliteWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000503 /* Build configuration list for PBXNativeTarget "SatelliteWidgets" */;
+			buildPhases = (
+				100000000000000000000307 /* Sources */,
+				100000000000000000000305 /* Frameworks */,
+				100000000000000000000306 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = SatelliteWidgets;
+			packageProductDependencies = (
+				100000000000000000000602 /* D2CTrackerCore */,
+			);
+			productName = SatelliteWidgets;
+			productReference = 100000000000000000000210 /* SatelliteWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {100000000000000000000400 = {CreatedOnToolsVersion = 26.6;};};
+			};
+			buildConfigurationList = 100000000000000000000501 /* Build configuration list for PBXProject "D2CTracker" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 100000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (100000000000000000000600 /* XCLocalSwiftPackageReference "." */,);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 100000000000000000000011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000400 /* D2CTracker */,
+				100000000000000000000401 /* SatelliteWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000109 /* PrivacyInfo.xcprivacy in Resources */,
+				10000000000000000000010B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000101 /* D2CTrackerApp.swift in Sources */,
+				100000000000000000000102 /* AppModel.swift in Sources */,
+				100000000000000000000103 /* Services.swift in Sources */,
+				100000000000000000000104 /* RootView.swift in Sources */,
+				100000000000000000000105 /* TrackingView.swift in Sources */,
+				100000000000000000000106 /* SkyView.swift in Sources */,
+				100000000000000000000107 /* GlobeView.swift in Sources */,
+				100000000000000000000108 /* SecondaryViews.swift in Sources */,
+				10000000000000000000010C /* LiveActivityService.swift in Sources */,
+				100000000000000000000110 /* LinkQualityService.swift in Sources */,
+				100000000000000000000111 /* TerrainService.swift in Sources */,
+				100000000000000000000112 /* HorizonSkyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100000000000000000000307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10000000000000000000010D /* SatelliteLiveActivityWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100000000000000000000701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100000000000000000000401 /* SatelliteWidgets */;
+			targetProxy = 100000000000000000000700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000510 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			ENABLE_TESTABILITY = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			GCC_OPTIMIZATION_LEVEL = 0;
+			ONLY_ACTIVE_ARCH = YES;
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		}; name = Debug; };
+		100000000000000000000511 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			ENABLE_NS_ASSERTIONS = NO;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			SWIFT_COMPILATION_MODE = wholemodule;
+		}; name = Release; };
+		100000000000000000000520 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_ENTITLEMENTS = D2CTracker/D2CTracker.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = CNY298JHN3;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = D2CTracker/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.keatontaylor.D2CTracker;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SUPPORTS_MACCATALYST = NO;
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_STRICT_CONCURRENCY = targeted;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		}; name = Debug; };
+		100000000000000000000521 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			CODE_SIGN_ENTITLEMENTS = D2CTracker/D2CTracker.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = CNY298JHN3;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = D2CTracker/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.keatontaylor.D2CTracker;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SUPPORTS_MACCATALYST = NO;
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_STRICT_CONCURRENCY = targeted;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+			VALIDATE_PRODUCT = YES;
+		}; name = Release; };
+		100000000000000000000522 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			APPLICATION_EXTENSION_API_ONLY = YES;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = CNY298JHN3;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = SatelliteWidgets/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.keatontaylor.D2CTracker.SatelliteWidgets;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SKIP_INSTALL = YES;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_STRICT_CONCURRENCY = targeted;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		}; name = Debug; };
+		100000000000000000000523 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			APPLICATION_EXTENSION_API_ONLY = YES;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = CNY298JHN3;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = SatelliteWidgets/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.keatontaylor.D2CTracker.SatelliteWidgets;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SKIP_INSTALL = YES;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_STRICT_CONCURRENCY = targeted;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000501 /* Build configuration list for PBXProject "D2CTracker" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000510 /* Debug */, 100000000000000000000511 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000502 /* Build configuration list for PBXNativeTarget "D2CTracker" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000520 /* Debug */, 100000000000000000000521 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000503 /* Build configuration list for PBXNativeTarget "SatelliteWidgets" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000522 /* Debug */, 100000000000000000000523 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		100000000000000000000600 /* XCLocalSwiftPackageReference "." */ = {isa = XCLocalSwiftPackageReference; relativePath = .; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		100000000000000000000601 /* D2CTrackerCore */ = {isa = XCSwiftPackageProductDependency; package = 100000000000000000000600 /* XCLocalSwiftPackageReference "." */; productName = D2CTrackerCore; };
+		100000000000000000000602 /* D2CTrackerCore */ = {isa = XCSwiftPackageProductDependency; package = 100000000000000000000600 /* XCLocalSwiftPackageReference "." */; productName = D2CTrackerCore; };
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 100000000000000000000000 /* Project object */;
+}

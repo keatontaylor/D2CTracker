@@ -1,0 +1,8 @@
+title: D2C Tracker
+description: Support and privacy information for D2C Tracker.
+theme: jekyll-theme-minimal
+repository: keatontaylor/D2CTracker
+url: https://keatontaylor.github.io
+baseurl: /D2CTracker
+github:
+  is_project_page: true

@@ -1,0 +1,23 @@
+[
+  [
+    {"latitude":71,"longitude":-168,"altitudeKilometers":0},{"latitude":60,"longitude":-141,"altitudeKilometers":0},{"latitude":49,"longitude":-125,"altitudeKilometers":0},{"latitude":33,"longitude":-117,"altitudeKilometers":0},{"latitude":19,"longitude":-105,"altitudeKilometers":0},{"latitude":8,"longitude":-78,"altitudeKilometers":0},{"latitude":25,"longitude":-80,"altitudeKilometers":0},{"latitude":45,"longitude":-66,"altitudeKilometers":0},{"latitude":58,"longitude":-64,"altitudeKilometers":0},{"latitude":70,"longitude":-90,"altitudeKilometers":0},{"latitude":71,"longitude":-168,"altitudeKilometers":0}
+  ],
+  [
+    {"latitude":12,"longitude":-81,"altitudeKilometers":0},{"latitude":6,"longitude":-77,"altitudeKilometers":0},{"latitude":-5,"longitude":-81,"altitudeKilometers":0},{"latitude":-18,"longitude":-70,"altitudeKilometers":0},{"latitude":-55,"longitude":-68,"altitudeKilometers":0},{"latitude":-34,"longitude":-53,"altitudeKilometers":0},{"latitude":-8,"longitude":-35,"altitudeKilometers":0},{"latitude":5,"longitude":-52,"altitudeKilometers":0},{"latitude":12,"longitude":-81,"altitudeKilometers":0}
+  ],
+  [
+    {"latitude":36,"longitude":-10,"altitudeKilometers":0},{"latitude":59,"longitude":-6,"altitudeKilometers":0},{"latitude":71,"longitude":29,"altitudeKilometers":0},{"latitude":59,"longitude":50,"altitudeKilometers":0},{"latitude":72,"longitude":140,"altitudeKilometers":0},{"latitude":54,"longitude":163,"altitudeKilometers":0},{"latitude":38,"longitude":140,"altitudeKilometers":0},{"latitude":22,"longitude":121,"altitudeKilometers":0},{"latitude":1,"longitude":104,"altitudeKilometers":0},{"latitude":8,"longitude":77,"altitudeKilometers":0},{"latitude":25,"longitude":56,"altitudeKilometers":0},{"latitude":31,"longitude":33,"altitudeKilometers":0},{"latitude":41,"longitude":28,"altitudeKilometers":0},{"latitude":36,"longitude":-10,"altitudeKilometers":0}
+  ],
+  [
+    {"latitude":37,"longitude":-17,"altitudeKilometers":0},{"latitude":31,"longitude":32,"altitudeKilometers":0},{"latitude":12,"longitude":44,"altitudeKilometers":0},{"latitude":-12,"longitude":40,"altitudeKilometers":0},{"latitude":-35,"longitude":18,"altitudeKilometers":0},{"latitude":-29,"longitude":-1,"altitudeKilometers":0},{"latitude":5,"longitude":-17,"altitudeKilometers":0},{"latitude":37,"longitude":-17,"altitudeKilometers":0}
+  ],
+  [
+    {"latitude":-11,"longitude":113,"altitudeKilometers":0},{"latitude":-20,"longitude":146,"altitudeKilometers":0},{"latitude":-39,"longitude":146,"altitudeKilometers":0},{"latitude":-35,"longitude":115,"altitudeKilometers":0},{"latitude":-11,"longitude":113,"altitudeKilometers":0}
+  ],
+  [
+    {"latitude":83,"longitude":-74,"altitudeKilometers":0},{"latitude":60,"longitude":-45,"altitudeKilometers":0},{"latitude":60,"longitude":-25,"altitudeKilometers":0},{"latitude":83,"longitude":-20,"altitudeKilometers":0},{"latitude":83,"longitude":-74,"altitudeKilometers":0}
+  ],
+  [
+    {"latitude":-63,"longitude":-180,"altitudeKilometers":0},{"latitude":-72,"longitude":-120,"altitudeKilometers":0},{"latitude":-68,"longitude":-60,"altitudeKilometers":0},{"latitude":-78,"longitude":0,"altitudeKilometers":0},{"latitude":-66,"longitude":60,"altitudeKilometers":0},{"latitude":-72,"longitude":120,"altitudeKilometers":0},{"latitude":-63,"longitude":180,"altitudeKilometers":0}
+  ]
+]

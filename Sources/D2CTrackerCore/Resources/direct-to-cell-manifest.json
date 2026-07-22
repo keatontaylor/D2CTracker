@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-19T05:00:00Z",
+  "satellites": [
+    {"noradId":99001,"name":"STARLINK-DTC-DEMO-01","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35},
+    {"noradId":99002,"name":"STARLINK-DTC-DEMO-02","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35},
+    {"noradId":99003,"name":"STARLINK-DTC-DEMO-03","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35},
+    {"noradId":99004,"name":"STARLINK-DTC-DEMO-04","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35},
+    {"noradId":99005,"name":"STARLINK-DTC-DEMO-05","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35},
+    {"noradId":99006,"name":"STARLINK-DTC-DEMO-06","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35},
+    {"noradId":99007,"name":"STARLINK-DTC-DEMO-07","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35},
+    {"noradId":99008,"name":"STARLINK-DTC-DEMO-08","directToCell":true,"status":"testing","generation":"v2-mini-demo","confidence":0.35}
+  ]
+}
